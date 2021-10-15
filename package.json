@@ -1,0 +1,16 @@
+{
+  "name": "flow2_project2_7",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "gulp watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.27.5",
+    "gulp": "^4.0.2"
+  }
+}
