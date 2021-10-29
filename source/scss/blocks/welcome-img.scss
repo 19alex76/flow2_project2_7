@@ -4,6 +4,22 @@
     position: absolute;
     right: 0;
     top: 12px;
+    background-image: url('../img/welcome-img-mobile.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+        
+    }
+    @media (min-resolution:1.5dppx){
+        .welcome-img{
+            background-image: url('../img/welcome-img-mobile@2x.jpg');
+
+        }
+    }
+    @media (min-widht: 1220px){
+        .welcome-img{
+            width: 608px;
+            height: 569px;
+        }
+    }
     
 
-}
