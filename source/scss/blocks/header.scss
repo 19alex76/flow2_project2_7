@@ -1,0 +1,24 @@
+.header{
+    width: 100%;
+    background-color:transparent ;
+
+   &_wrapper{
+        width: 100%;
+        max-width: 1200px;
+        margin: 0 auto;
+        display: flex;
+        justify-content:space-between;
+        padding: 0 15px;
+        padding-top: 15px;
+        align-items: center;
+
+    }
+   &_theme-toggler{
+       border: none;
+       background-color:transparent;
+       width: 25px;
+       height: 25px;
+       background-color: rgba( #ffffff, 0.5);//temp
+   }
+
+}

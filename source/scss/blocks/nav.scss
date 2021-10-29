@@ -1,0 +1,15 @@
+.nav{
+   &_toggler{
+       border: none;
+       background-color: transparent;
+       width: 45px;
+       height: 45px;
+       background-color: rgba( #ffffff, 0.5);//tempareri
+   } 
+   &_list{
+       display: none;
+   }
+   &_contact{
+       display: none;
+   }
+}
