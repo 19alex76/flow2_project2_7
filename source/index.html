@@ -6,45 +6,49 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Бизнес консалтинг</title>
 </head>
-<body>
+<body class="body">
 <header class="header">
-    <div class="header_wrapper">
+    <div class="header__wrapper">
         <a href="#"class="logo">
-            <img class="logo_img" src="img/logo.png" alt="Logo">
+            <img class="logo__img" src="img/logo.png" alt="Logo">
         </a>
-        <button class="header_theme-toggler">
+        <button class="header__theme-toggler">
             <span class="visually-hidden">Поменять тему</span>
             <svg class="header_icon" width="22" height="22" >
                 <use xlink:href="img/sprite.svg#day-mode"></use>
                             </svg>
-
+<button class="header__burger">
+          <svg class="header__burger-icon" width="46" height="46">
+            <use xlink:href="./img/sprite.svg#burger"></use>
+          </svg>
+        </button>
             <img class="theme-togler_icon" src="#" alt="">
         </button>
         <nav class="nav nav--shown">
-            <button class="nav_togler">
+            <button class="nav__togler">
                 <span class="visually-hidden">Меню</span>
                 <svg class="" width="46" height="46"></svg>
                 <use xlink:href="img/sprite.svg#burger" ></use>
 
             </button>
-    <ul class="nav_list">
-        <li class="nav_item">
-            <a class="nav_link" href="#">
+    <ul class="nav__list">
+        <li class="nav__item">
+            <a class="nav__link" href="#">
                 Обо мне
             </a>
         </li>
-        <li class="nav_item">
-            <a class="nav_link" href="#">
+        <li class="nav__item">
+            <a class="nav__link" href="#">
                 Мои проекты
             </a>
         </li>
-        <li class="nav_item">
-            <a class="nav_link" href="#">
+        <li class="nav__item">
+            <a class="nav__link" href="#">
                 Отзывы
             </a>
         </li>
     </ul>
-        <a class="nav_connect" href="tel:+380979819898">
+        <a class="nav__connect" href="tel:+380979819898">
             Связаться со мной
         </a>
         </nav>
@@ -52,15 +56,18 @@
 </header> 
 <main class="main">
     <section class="welcome-section">
-        <div class="welcom-section_wrapper">
+        <div class="welcom-section__wrapper">
             <h1 class="title title--main">
-               <span class="title_highlight">Бизнес-</span> Консалтинг
+               <span class="title__highlight">Бизнес-</span> Консалтинг
             </h1>
             <div class="welcome-img">
-                <img src="img/welcome-img.jpg" alt="a man" width="178" height="166">
+                <img src="img/welcome-img-mobile@2x.jpg" alt="a man" width="178" height="166">
             </div>
+            <div class="welcome__text">Консультирую по вопросам 
+                масштабирования бизнеса</div>
         </div>
     </section>
+
 </main> 
 </body>
 </html>

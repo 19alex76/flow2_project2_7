@@ -6,9 +6,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "gulp": "gulp html",
-    "start": "gulp watch",
+    "start": "gulp",
     "css": "gulp css",
-    "copy":"gulp copy"
+    "copy": "gulp copy"
   },
   "author": "Alex Grit",
   "license": "ISC",
@@ -24,5 +24,14 @@
     "gulp-sass": "^5.0.0",
     "gulp-sourcemaps": "^1.12.1",
     "sass": "^1.43.2"
-  }
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/19alex76/flow2_project2_7.git"
+  },
+  "bugs": {
+    "url": "https://github.com/19alex76/flow2_project2_7/issues"
+  },
+  "homepage": "https://github.com/19alex76/flow2_project2_7#readme"
 }

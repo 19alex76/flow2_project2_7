@@ -1,16 +1,33 @@
 .nav{
-   &_toggler{
+   &__toggler{
        border: none;
        background-color: transparent;
        width: 45px;
        height: 45px;
        padding: 0;
        margin: 0;
+       text-decoration: none;
+
    } 
-   &_list{
+   &__list{
+       display: none;
+       text-decoration: none;
+   }
+   &__contact{
        display: none;
    }
-   &_contact{
-       display: none;
-   }
+
+    &__item {
+        text-decoration: none;
+
+    }
+    &__link {
+        text-decoration: none;
+
+
+    }
+    &__connect {
+        text-decoration: none;
+    }
+  
 }
